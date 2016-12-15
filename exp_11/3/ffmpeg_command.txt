@@ -1,0 +1,4 @@
+ffmpeg -i %5d.png -c:v libx264 -r 10 -pix_fmt yuv420p output.mp4
+
+
+%5d = pattern with 5 digits, i.e., 00001.png, 00002.png, ...
